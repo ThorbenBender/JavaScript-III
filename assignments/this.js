@@ -1,7 +1,7 @@
 /* The for principles of "this";
 * in your own words. explain the four principle for the "this" keyword below.
 *
-* 1. 
+* 1. when use this in the global element it points at the root element
 * 2. 
 * 3. 
 * 4. 
@@ -12,6 +12,7 @@
 // Principle 1
 
 // code example for Window Binding
+this.log('Hello');
 
 // Principle 2
 
