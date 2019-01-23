@@ -2,7 +2,7 @@
 * in your own words. explain the four principle for the "this" keyword below.
 *
 * 1. when use this in the global element it points at the root element
-* 2. 
+* 2. points at the variable inside the object
 * 3. creating an object with an constructor
 * 4. when you bind an argument to a function, the this will point at the argument
 *
@@ -30,7 +30,7 @@ const Max = {
 function Car(name){
     this.name = name;
 }
-
+const fiat = new Car('fiat');
 // Principle 4
 
 // code example for Explicit Binding
